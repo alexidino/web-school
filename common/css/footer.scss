@@ -1,0 +1,142 @@
+.footer {
+  padding: 0 68px;
+  @media(max-width: 991px) {
+    padding: 0 20px;
+  }
+  @media(max-width: 374px) {
+    padding: 0 5px;
+  }
+  &-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    border-bottom: 1px solid #D8D8D8;
+    @media(max-width: 767px) {
+      flex-direction: column;
+      align-items: center;
+    }
+    &--social {
+      width: 60%;
+      @media(max-width: 991px) {
+        width: unset;
+      }
+      .social-logo {
+        display: flex;
+        color: #8E8E8E;
+        font-size: 16px;
+        line-height: 1.2;
+        margin-bottom: 40px;
+        @media(max-width: 767px) {
+          justify-content: center;
+        }
+        img {
+          width: 90px;
+          flex-shrink: 0;
+          margin-right: 20px;
+        }
+      }
+      .social-icons {
+        .img-svg {
+          margin-right: 15px;
+        }
+        @media(max-width: 767px) {
+          a:last-child {
+            margin-right: 0;
+          }
+        }
+        .img-svg:hover {
+          path:first-child {
+            fill: #F15525;
+          }
+        }
+        @media(max-width: 767px) {
+          margin-bottom: 40px;         
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+    &--info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      @media(max-width: 767px) {
+        margin-bottom: 15px;
+      }
+      a {
+        font-size: 13px;
+        color: #22253B;
+        @media(max-width: 767px) {
+          padding-bottom: 25px;
+          text-align: center;
+        }
+      }
+      a:hover {
+        color: #F15525;
+      }
+    }
+    &--contacts {
+      display: flex;
+      flex-direction: column;
+      @media(max-width: 767px) {
+        align-items: center;
+        text-align: center;
+      }
+      .tel {
+        margin-bottom: 5px;
+        color: #38BFF2;
+      }
+      .email {
+        margin-bottom: 65px;
+        @media(max-width: 767px) {
+          margin-bottom: 35px;
+        }
+      }
+      .contacts-data {
+        font-size: 16px;
+        font-size: 13px;
+        line-height: 1.7;
+        color: #8E8E8E;
+      }
+    }
+  }
+  &-copyright {
+    display: flex;
+    padding: 30px 0;
+    font-size: 16px;
+    color: #8E8E8E;
+    @media(max-width: 991px) {
+      font-size: 14px;
+    }
+    @media(max-width: 767px) {
+      flex-direction: column;
+      align-items: center;
+      font-size: 12px;
+    }
+    &--year {
+      flex-grow: 1;
+      @media(max-width: 767px) {
+        margin: 0 0 15px 0;
+      }
+    }
+    &--agreement {
+      margin-right: 65px;
+      @media(max-width: 991px) {
+        margin: 0 30px 0 0;
+      }
+      @media(max-width: 767px) {
+        margin: 0 0 15px 0;
+        a {
+          color: #F15525;
+        }
+      }
+    }
+    &--politics {
+      @media(max-width: 767px) {
+        a {
+          color: #F15525;
+        }
+      }
+    }
+  }
+}

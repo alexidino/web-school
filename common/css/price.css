@@ -1,0 +1,103 @@
+.price {
+  padding: 0 68px; }
+  @media (max-width: 1199px) {
+    .price {
+      padding: 0; } }
+  .price-title {
+    margin: 60px 0 30px 0; }
+    @media (max-width: 991px) {
+      .price-title {
+        margin: 30px 0; } }
+  .price-info {
+    display: flex;
+    padding: 5px 0px;
+    margin-bottom: 35px; }
+    @media (max-width: 991px) {
+      .price-info {
+        flex-direction: column;
+        align-items: center; } }
+    .price-info--item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 30px; }
+      @media (max-width: 991px) {
+        .price-info--item {
+          flex-direction: column;
+          margin: 10px 20px;
+          text-align: center; } }
+      .price-info--item-icon {
+        flex-shrink: 0; }
+      .price-info--item-text {
+        font-size: 16px;
+        line-height: 1.4;
+        margin-left: 30px; }
+        @media (max-width: 991px) {
+          .price-info--item-text {
+            margin-left: 0; } }
+    .price-info .item-center {
+      min-width: 24%; }
+  .price-table {
+    padding: 20px 30px 15px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    margin-bottom: 25px; }
+    @media (max-width: 991px) {
+      .price-table {
+        padding: 20px 20px 15px;
+        overflow-x: scroll; } }
+    .price-table--item {
+      display: flex;
+      padding: 15px;
+      border-radius: 10px;
+      font-size: 20px;
+      line-height: 1.2; }
+      @media (max-width: 991px) {
+        .price-table--item {
+          width: 656px;
+          overflow: hidden;
+          font-size: 14px; } }
+      .price-table--item-first {
+        min-width: 48%; }
+      .price-table--item-second {
+        width: 26%; }
+    .price-table--item:nth-child(even) {
+      background: #F3F3F3; }
+    .price-table--item:first-child {
+      font-weight: 700;
+      font-size: 16px;
+      color: #38BFF2; }
+    .price-table--item:last-child {
+      font-weight: 700;
+      font-size: 24px; }
+  .price .annotation {
+    font-size: 17px;
+    color: #8E8E8E;
+    padding-left: 50px;
+    margin-bottom: 30px; }
+    @media (max-width: 991px) {
+      .price .annotation {
+        padding-left: 10px; } }
+  .price .explain {
+    display: flex;
+    align-items: center;
+    padding: 70px 50px;
+    margin-bottom: 10px;
+    background: #EAF2F5;
+    border-radius: 30px; }
+    @media (max-width: 767px) {
+      .price .explain {
+        flex-direction: column;
+        padding: 40px 20px; } }
+    .price .explain-icon {
+      flex-shrink: 0;
+      margin-right: 30px; }
+    .price .explain-text {
+      margin: 25px; }
+      @media (max-width: 767px) {
+        .price .explain-text {
+          margin: 15px 0;
+          text-align: center;
+          font-size: 14px; } }
+
+/*# sourceMappingURL=price.css.map */

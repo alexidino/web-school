@@ -1,0 +1,106 @@
+.technology {
+  padding: 0 68px;
+  margin-bottom: 85px;
+  @media(max-width: 1399px) {
+    padding: 0;
+  }
+  @media(max-width: 767px) {
+    margin-bottom: 40px;
+  }
+  &-title {
+    text-align: center;
+    margin: 0 0 35px 0;
+    padding: 60px 0 0 0;
+    @media(max-width: 767px) {
+      margin: 0 0 25px 0;
+    }
+  }
+  &-body {
+    display: flex;
+    justify-content: space-between;
+    background: #EAF2F5;
+    border-radius: 48px;
+    @media(max-width: 991px) {
+      align-items: center;
+    }
+    @media(max-width: 767px) {
+      flex-direction: column;
+      align-items: center;
+    }
+    &--img{
+      width: 100%;
+      margin: 42px 30px 0 120px;
+      @media(max-width: 1399px) {
+        margin: 42px 40px 0 70px;
+      }
+      @media(max-width: 991px) {
+        margin: 20px;
+      }
+      @media(max-width: 767px) {
+        display: none;
+        width: auto;
+      }
+    }
+    &--content{
+      padding: 80px 100px 0 30px;
+      @media(max-width: 1399px) {
+        padding: 80px 20px 0 30px;
+      }
+      @media(max-width: 991px) {
+        width: 100%;
+        padding: 20px;
+      }
+      @media(max-width: 767px) {
+        padding: 20px;
+      }
+      .colorBtn {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        &-item {
+          padding: 10px 15px;
+          margin: 5px;
+          border-radius: 44px;
+          font-size: 17px;
+          color: #FFF;
+          @media(max-width: 767px) {
+            flex-grow: 1;
+            text-align: center;
+          }
+        }
+        .blue {
+          background: #5096FF;
+
+        }
+        .yellow {
+          background: #FFB359;
+        }
+        .red {
+          background: #FF6F50;
+        }
+        .green {
+          background: #4BD071;
+        }
+        .skyBlue {
+          background: #50C0FF;
+        }
+        .deepBlue {
+          background: #4B77B9;
+        }
+        .purple {
+          background: #AF93FF;
+        }
+      }
+      .descriptionBtn {
+        padding: 5px;
+        font-weight: 600;
+        font-size: 20px;
+        @media(max-width: 767px) {
+          display: none;
+          font-size: 18px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

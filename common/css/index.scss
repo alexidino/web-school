@@ -1,0 +1,68 @@
+body {
+  font-family: 'Gilroy-Regular';
+  color: #22253B;
+  background: rgb(249, 249, 250);
+}
+h2 {
+  font-weight: 600;
+  font-size: 46px;
+  text-align: center;
+  @media(max-width: 1400px) {
+    font-size: 42px;
+  }
+  @media(max-width: 991px) {
+    font-size: 36px;
+  }
+  @media(max-width: 767px) {
+    font-size: 24px;
+  }
+}
+.school-info--btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 25px 45px;
+  background: #F15525;
+  border-radius: 82px;
+  font-size: 20px;
+  white-space: nowrap;
+  color: #fff;
+  @media(max-width:991px) {
+    font-size: 18px;
+  }
+  @media(max-width:767px) {
+    font-size: 16px;
+    padding: 25px 35px;
+  }
+  @media(max-width:374px) {
+    font-size: 14px;
+    padding: 20px 30px;
+  }
+  .arrow-span {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    font-weight: 20px;
+    margin: 0 0 0 10px;
+    img {
+      padding-bottom: 2px;
+    }
+  }
+}
+.school-info--btn:hover {
+  background: #38BFF2;
+  color: #FFF;
+}
+.href-color {
+  color: #F15525 !important;
+}
+.element-off {
+  display: none;
+}
+.lock {
+  @media(max-width: 991px) {
+    overflow: hidden;
+  }
+}
+.modalLock {
+  overflow: hidden;
+}

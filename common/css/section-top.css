@@ -1,0 +1,108 @@
+.section-top {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-top: 125px;
+  background: url(../../common/image/bg-top.png) no-repeat 107% 1%;
+  background-size: 88%; }
+  @media (max-width: 1400px) {
+    .section-top {
+      background: url(../../common/image/bg-top.png) no-repeat calc(50% + 75px) 4%; } }
+  @media (max-width: 1200px) {
+    .section-top {
+      background: url(../../common/image/bg-top.png) no-repeat calc(50% + 20px) 11%; } }
+  @media (max-width: 991px) {
+    .section-top {
+      background: url(../../common/image/bg-top.png) no-repeat calc(50% + -43px) 13%; } }
+  @media (max-width: 767px) {
+    .section-top {
+      background: url(../../common/image/bg-top.png) no-repeat calc(50% + -270px) calc(50% + 520px);
+      background-size: 1209px 1420px; } }
+  .section-top .school {
+    display: flex;
+    margin-bottom: 90px;
+    justify-content: space-between;
+    padding: 0 70px; }
+    @media (max-width: 1399px) {
+      .section-top .school {
+        padding: 0 20px; } }
+    @media (max-width: 1199px) {
+      .section-top .school {
+        margin-bottom: 50px; } }
+    @media (max-width: 991px) {
+      .section-top .school {
+        padding: 0; } }
+    @media (max-width: 767px) {
+      .section-top .school {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px; } }
+    .section-top .school-info {
+      width: 56%;
+      color: #22253B; }
+      @media (max-width: 767px) {
+        .section-top .school-info {
+          width: 100%;
+          padding: 0 20px;
+          text-align: center;
+          margin-bottom: 35px; } }
+      @media (max-width: 374px) {
+        .section-top .school-info {
+          padding: 0 5px; } }
+      .section-top .school-info--title {
+        font-weight: 500;
+        font-size: 46px;
+        padding: 10px 0 30px 0; }
+        @media (max-width: 1399px) {
+          .section-top .school-info--title {
+            font-size: 44px;
+            padding: 10px 0 20px 0; } }
+        @media (max-width: 1199px) {
+          .section-top .school-info--title {
+            font-size: 36px;
+            padding: 10px 0 10px 0; } }
+        @media (max-width: 991px) {
+          .section-top .school-info--title {
+            font-size: 29px; } }
+        @media (max-width: 767px) {
+          .section-top .school-info--title {
+            font-size: 24px; } }
+        .section-top .school-info--title .orange-bracket {
+          color: #F15525;
+          font-weight: bold; }
+        .section-top .school-info--title .italic {
+          font-style: italic;
+          font-weight: 600; }
+      .section-top .school-info--text {
+        padding: 15px 0 0 0;
+        margin-bottom: 45px;
+        font-size: 16px;
+        line-height: 1.4; }
+        @media (max-width: 1199px) {
+          .section-top .school-info--text {
+            margin-bottom: 30px; } }
+        @media (max-width: 991px) {
+          .section-top .school-info--text {
+            font-size: 14px; } }
+    .section-top .school-img {
+      width: 34%; }
+  .section-top .round-button {
+    height: 37px;
+    width: 37px;
+    margin: 0 auto -25px;
+    border-radius: 50%;
+    background: #FFF; }
+    .section-top .round-button--a {
+      width: 100%;
+      height: 100%;
+      display: block;
+      padding: 12px; }
+      .section-top .round-button--a img {
+        width: 100%;
+        margin-top: -3px; }
+  .section-top--bottom {
+    width: 100%;
+    height: 50px;
+    background: url(../image/oval.png) no-repeat 50% 50%;
+    background-size: cover; }
+
+/*# sourceMappingURL=section-top.css.map */
