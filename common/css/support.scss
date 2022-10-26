@@ -39,6 +39,13 @@
           @media(max-width: 1199px) {
             padding: 20px 30px;
           }
+          @media(max-width: 767px) {
+            width: 100%;
+            img {
+              display: block;
+              margin: 0 auto;
+            }
+          }
         }
         &--content {
           max-width: 730px;
@@ -50,7 +57,7 @@
             padding: 20px 30px 15px;
           }
           @media(max-width: 767px) {
-            // max-width: 320px;
+            width: 100%;
           }
           &-title {
             font-weight: 600;

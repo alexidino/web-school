@@ -83,6 +83,10 @@ body {
   color: #22253B;
   background: #f9f9fa; }
 
+section {
+  max-width: 1400px;
+  margin: 0 auto; }
+
 h2 {
   font-weight: 600;
   font-size: 46px;
@@ -434,6 +438,7 @@ h2 {
       display: block;
       padding: 12px; }
       .section-top .round-button--a img {
+        display: block;
         width: 100%;
         margin-top: -3px; }
   .section-top--bottom {
@@ -880,6 +885,12 @@ h2 {
           @media (max-width: 1199px) {
             .section-support .container-support .support-top--img, .section-support .container-support .support-bottom--img {
               padding: 20px 30px; } }
+          @media (max-width: 767px) {
+            .section-support .container-support .support-top--img, .section-support .container-support .support-bottom--img {
+              width: 100%; }
+              .section-support .container-support .support-top--img img, .section-support .container-support .support-bottom--img img {
+                display: block;
+                margin: 0 auto; } }
         .section-support .container-support .support-top--content, .section-support .container-support .support-bottom--content {
           max-width: 730px;
           padding: 50px 100px 50px 80px; }
@@ -889,6 +900,9 @@ h2 {
           @media (max-width: 991px) {
             .section-support .container-support .support-top--content, .section-support .container-support .support-bottom--content {
               padding: 20px 30px 15px; } }
+          @media (max-width: 767px) {
+            .section-support .container-support .support-top--content, .section-support .container-support .support-bottom--content {
+              width: 100%; } }
           .section-support .container-support .support-top--content-title, .section-support .container-support .support-bottom--content-title {
             font-weight: 600;
             font-size: 32px;

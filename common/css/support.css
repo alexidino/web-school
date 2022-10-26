@@ -38,6 +38,12 @@
           @media (max-width: 1199px) {
             .section-support .container-support .support-top--img, .section-support .container-support .support-bottom--img {
               padding: 20px 30px; } }
+          @media (max-width: 767px) {
+            .section-support .container-support .support-top--img, .section-support .container-support .support-bottom--img {
+              width: 100%; }
+              .section-support .container-support .support-top--img img, .section-support .container-support .support-bottom--img img {
+                display: block;
+                margin: 0 auto; } }
         .section-support .container-support .support-top--content, .section-support .container-support .support-bottom--content {
           max-width: 730px;
           padding: 50px 100px 50px 80px; }
@@ -47,6 +53,9 @@
           @media (max-width: 991px) {
             .section-support .container-support .support-top--content, .section-support .container-support .support-bottom--content {
               padding: 20px 30px 15px; } }
+          @media (max-width: 767px) {
+            .section-support .container-support .support-top--content, .section-support .container-support .support-bottom--content {
+              width: 100%; } }
           .section-support .container-support .support-top--content-title, .section-support .container-support .support-bottom--content-title {
             font-weight: 600;
             font-size: 32px;

@@ -97,6 +97,7 @@
       display: block;
       padding: 12px; }
       .section-top .round-button--a img {
+        display: block;
         width: 100%;
         margin-top: -3px; }
   .section-top--bottom {
